@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 body{
-    background-color: aquamarine;
+    background-color: #0c084c;
     margin:0;
     font-family: 'Rubik', sans-serif;
 }
@@ -14,7 +14,7 @@ body{
 }
 .navbar-container{
     position: absolute;
-    background-color: white;
+    background-color:#3bb4c1;
     width:100%;
 }
 .navbar-container a{
