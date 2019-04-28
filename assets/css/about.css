@@ -21,6 +21,11 @@ body{
     letter-spacing: 4px;
     z-index: 998;
 }
+.navbar-name a{
+    float: left;
+    margin-top: 35px;
+    margin-left: 1em;
+}
 .links li{
     list-style-type: none;
     display:inline-block;
@@ -33,4 +38,33 @@ body{
 }
 .links a:hover{
     color: #3700ff;
+}
+.navbar-name a:hover{
+    color: #3700ff;
+}
+@media screen and (max-width:840px) {
+    .full-navbar{
+        display: none;
+    }
+    .navbar li{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: block;
+    }
+    .ham_menu{
+        display: block !important;
+    }
+    .navbar-btn{
+        display: block;
+        margin-top: -2rem;
+    }
+    .navbar{
+        width: 100%;
+    }
+  }
+
+@media screen and (min-width:840px) {
+    .full-navbar{
+        display: block !important;
+    }
 }
